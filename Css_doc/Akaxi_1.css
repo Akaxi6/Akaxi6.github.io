@@ -1,0 +1,586 @@
+body{
+    background-image: url(../Picture/background_good.gif);  /*云图片地址：https://img1.imgtp.com/2023/06/14/8ewQnuJH.gif*/
+    background-size: 100% 100%;
+    animation: mybackground_animation 20s infinite;
+
+}
+
+.big_1{
+    display: flex;
+    height: 2420px;   
+}
+
+.text_1{
+    color: aliceblue;
+    text-align: center;
+    width: 100%;
+    height: 10px;
+    margin-top: 10px; /*距离div高10px*/
+    font-size: 20px; /*设置字体大小*/
+    font-family: STkaiti; /*设置字体*/
+}
+
+.text_2{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 0px; /*距离div高10px*/
+    font-size: 16px; /*设置字体大小*/
+    font-family: STkaiti; /*设置字体*/
+}
+
+.text_intru{
+    color: gainsboro;
+    text-align: left;
+    margin-top: 0px; /*距离div高10px*/
+    font-size: 13px; /*设置字体大小*/
+    font-family: STfangsong; /*设置字体*/
+    line-height: 0.5; /*行高*/
+}
+
+.text_bottom{
+    color: bisque;
+    text-align: left;
+    margin-top: 0px; /*距离div高10px*/
+    font-size: 12px; /*设置字体大小*/
+    font-family: STfangsong; /*设置字体*/
+}
+
+.pic_bottom_center{
+    color: bisque;
+    text-align: center;
+    margin-top: 0px; /*距离div高10px*/
+    font-size: 16px; /*设置字体大小*/
+    font-family: STfangsong; /*设置字体*/
+}
+
+.pic_bottom_center_black{
+    color:#000;
+    text-align: center;
+    margin-top: 0px; /*距离div高10px*/
+    font-size: 16px; /*设置字体大小*/
+    font-family: SimHei; /*设置字体*/
+}
+
+.pic_bottom_center_spcia{
+    color:white;
+    text-align: center;
+    margin-top: 0px; /*距离div高10px*/
+    font-size: 25px; /*设置字体大小*/
+    font-family: FangSong; /*设置字体*/
+}
+
+.center_4_text{
+    color:darkgrey;
+    text-align: left;
+    margin-top: 0px; /*距离div高10px*/
+    font-size: 19px; /*设置字体大小*/
+    font-family: SimHei; /*设置字体*/
+    line-height: 1.2;
+    padding-top: 35px;
+}
+
+.center_4_left_center_text{
+    color:white;
+    text-align: center;
+    margin-top: 0px; /*距离div高10px*/
+    font-size: 15px; /*设置字体大小*/
+    font-family: FangSong; /*设置字体*/
+    line-height: 1.2;
+    padding-top: 35px;
+}
+
+.text_link{
+    color: bisque;
+    text-align: left;
+    margin-top: 0px; /*距离div高10px*/
+    font-size: 16px; /*设置字体大小*/
+    font-family: Roboto; /*设置字体*/
+}
+
+.big_left{
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 200px;
+    height: 1075px;
+    /* border: 1px solid #000; 设置边框样式 */
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 20px; /* 设置距离顶部的偏移量 */
+    left: 20px; /* 设置距离左侧的偏移量 */
+}
+
+.left_1{
+    background-color: skyblue;
+    width: 160px;
+    height: 200px;
+    /* border: 1px solid #000; 设置边框样式 */
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 20px; /* 设置距离顶部的偏移量 */
+    left: 20px; /* 设置距离左侧的偏移量 */
+}
+
+.left_2{
+
+    width: 160px;
+    height: 850px;
+    /* border: 1px solid #000; 设置边框样式 */
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 220px; /* 设置距离顶部的偏移量 */
+    left: 20px; /* 设置距离左侧的偏移量 */
+}
+
+.big_center{
+    background-color: rgba(255, 255, 255, 0.15);
+    width: 1200px;
+    height: 2400px;
+    /* border: 1px solid #000; 设置边框样式 */
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 10px; /* 设置距离顶部的偏移量 */
+    left: 240px; /* 设置距离左侧的偏移量 */
+    bottom: 20px;
+}
+
+.center_1{
+    background-image: url(../Picture/flower_line.gif);
+    background-size:contain;
+    width: 1180px;
+    height: 40px;
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 0px; /* 设置距离顶部的偏移量 */
+    left: 10px; /* 设置距离左侧的偏移量 */
+    bottom: 20px;
+}
+
+.center_2{
+    /* background-color: rgba(255, 255, 255, 0.3); */
+    width: 1200px;
+    height: 500px;
+    /* border: 1px solid white;  */
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 60px; /* 设置距离顶部的偏移量 */
+    left: 0px; /* 设置距离左侧的偏移量 */
+    bottom: 20px;
+}
+
+.center_2_1{
+    /* background-color:aqua; */
+    width: 200px;
+    height: 500px;
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 0px; /* 设置距离顶部的偏移量 */
+    left: 20px; /* 设置距离左侧的偏移量 */
+    bottom: 20px;
+}
+
+.text_center_01{
+    color: bisque;
+    text-align: center;
+    margin-top: 100px; /*距离div高10px*/
+    font-size: 80px; /*设置字体大小*/
+    font-family: STfangsong; /*设置字体*/
+    line-height: 0.5; /*行高*/
+    font-weight: bold;
+}
+
+.center_01_line{
+    background-color:darkgray;
+    width: 200px;
+    height: 10px;
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 150px; /* 设置距离顶部的偏移量 */
+    left: 0px; /* 设置距离左侧的偏移量 */
+    bottom: 0px;
+}
+
+.center_2_2{
+    /* background-color:aqua; */
+    width: 940px;
+    height: 500px;
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 0px; /* 设置距离顶部的偏移量 */
+    left: 240px; /* 设置距离左侧的偏移量 */
+    bottom: 20px;
+}
+
+.center_2_01_pic{  /* 定位图像的位置 */
+    /* background-color:goldenrod; */
+    width: 182px;
+    height: 256px;
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 207.5px; /* 设置距离顶部的偏移量 */
+    left: 758px; /* 设置距离左侧的偏移量 */
+}
+
+.center_2_02_pic{  /* 定位图像的位置 */
+    /* background-color:goldenrod; */
+    width: 280px;
+    height: 180px;
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 0px; /* 设置距离顶部的偏移量 */
+    left: 0px; /* 设置距离左侧的偏移量 */
+}
+
+.center_2_03_text{
+    /* background-color:goldenrod; */
+    width: 280px;
+    height: 310px;
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 190px; /* 设置距离顶部的偏移量 */
+    left: 0px; /* 设置距离左侧的偏移量 */
+}
+
+.center_2_04_text{
+    /* background-color:goldenrod; */
+    width: 440px;
+    height: 300px;
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 0; /* 设置距离顶部的偏移量 */
+    left: 300px; /* 设置距离左侧的偏移量 */
+}
+
+.center_2_05_pic{
+    /* background-color:goldenrod; */
+    width: 440px;
+    height: 180px;
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 320px; /* 设置距离顶部的偏移量 */
+    left: 300px; /* 设置距离左侧的偏移量 */
+}
+
+.center_2_06_pic{
+    /* background-color:goldenrod; */
+    width: 182px;
+    height: 120px;
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 0px; /* 设置距离顶部的偏移量 */
+    left: 758px; /* 设置距离左侧的偏移量 */
+}
+
+.one_title_text{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 0px; /*距离div高10px*/
+    font-size: 20px; /*设置字体大小*/
+    font-family: STkaiti; /*设置字体*/
+}
+
+.one_constrat_center_text{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 0px; /*距离div高10px*/
+    font-size: 20px; /*设置字体大小*/
+    font-family: STkaiti; /*设置字体*/
+    line-height: 0.5; /*行高*/
+}
+
+.one_constrat_center_line1_text{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 0px; /*距离div高10px*/
+    font-size: 20px; /*设置字体大小*/
+    font-family: STkaiti; /*设置字体*/
+    line-height: 1; /*行高*/
+}
+
+.one_constrat_left_text{
+    color: aliceblue;
+    text-align: left;
+    margin-top: 0px; /*距离div高10px*/
+    font-size: 20px; /*设置字体大小*/
+    font-family: STkaiti; /*设置字体*/
+    line-height: 0.5; /*行高*/
+}
+
+.one_constrat_left_small_text{
+    color: aliceblue;
+    text-align: left;
+    margin-top: 0px; /*距离div高10px*/
+    font-size: 16px; /*设置字体大小*/
+    font-family: STkaiti; /*设置字体*/
+    line-height: 1; /*行高*/
+}
+
+.center_3{
+    /* background-color: rgba(255, 255, 255, 0.3); */
+    width: 1200px;
+    height: 500px;
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 600px; /* 设置距离顶部的偏移量 */
+    left: 0px; /* 设置距离左侧的偏移量 */
+    bottom: 0px;
+}
+
+.center_3_1{
+    /* background-color:aqua; */
+    width: 940px;
+    height: 500px;
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 0px; /* 设置距离顶部的偏移量 */
+    left: 20px; /* 设置距离左侧的偏移量 */
+    bottom: 20px;
+}
+
+.center_3_01_pic{
+    /* background-color:goldenrod;  */
+    width: 940px;
+    height: 50px;
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 200px; /* 设置距离顶部的偏移量 */
+    left: 0px; /* 设置距离左侧的偏移量 */
+}
+
+.center_3_02_pic{
+    /* background-color:goldenrod;  */
+    width: 170px;
+    height: 170px;
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 0px; /* 设置距离顶部的偏移量 */
+    left: 0px; /* 设置距离左侧的偏移量 */
+}
+
+.center_3_03_pic{
+    /* background-color:goldenrod;  */
+    width: 170px;
+    height: 170px;
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 280px; /* 设置距离顶部的偏移量 */
+    left: 200px; /* 设置距离左侧的偏移量 */    
+}
+
+.center_3_04_pic{
+    /* background-color:goldenrod;  */
+    width: 170px;
+    height: 170px;
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 0px; /* 设置距离顶部的偏移量 */
+    left: 400px; /* 设置距离左侧的偏移量 */    
+}
+
+.center_3_05_pic{
+    /* background-color:goldenrod;  */
+    width: 170px;
+    height: 170px;
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 250px; /* 设置距离顶部的偏移量 */
+    left: 600px; /* 设置距离左侧的偏移量 */    
+}
+
+.center_3_06_pic{
+    /* background-color:plum;  */
+    width: 170px;
+    height: 150px;
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 20px; /* 设置距离顶部的偏移量 */
+    left: 200px; /* 设置距离左侧的偏移量 */    
+}
+
+.center_3_07_pic{
+    /* background-color:plum;  */
+    width: 170px;
+    height: 150px;
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 280px; /* 设置距离顶部的偏移量 */
+    left: 400px; /* 设置距离左侧的偏移量 */    
+}
+
+.center_3_08_pic{
+    /* background-color:plum;  */
+    width: 170px;
+    height: 150px;
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 20px; /* 设置距离顶部的偏移量 */
+    left: 600px; /* 设置距离左侧的偏移量 */    
+}
+
+.center_3_09_pic{
+    /* background-color:plum; */
+    width: 140px;
+    height: 50px;
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 215px; /* 设置距离顶部的偏移量 */
+    left: 780px; /* 设置距离左侧的偏移量 */ 
+}
+
+.center_3_10_video{
+    /* background-color:plum; */
+    width: 200px;
+    height: 150px;
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 330px; /* 设置距离顶部的偏移量 */
+    left: 0px; /* 设置距离左侧的偏移量 */ 
+}
+
+
+.center_3_2{
+    /* background-color:aqua; */
+    width: 200px;
+    height: 500px;
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 0px; /* 设置距离顶部的偏移量 */
+    left: 980px; /* 设置距离左侧的偏移量 */
+    bottom: 20px;
+}
+
+.center_4{
+    /* background-color: rgba(255, 255, 255, 0.3); */
+    width: 1200px;
+    height: 500px;
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 1140px; /* 设置距离顶部的偏移量 */
+    left: 0px; /* 设置距离左侧的偏移量 */
+    bottom: 0px;
+}
+
+.center_4_01_pic{
+        /* background-color:goldenrod; */
+        width: 200px;
+        height: 500px;
+        padding: 0px; /* 可选：设置内边距 */
+        position: absolute; /* 设置定位属性为绝对定位 */
+        top: 0px; /* 设置距离顶部的偏移量 */
+        left: 740px; /* 设置距离左侧的偏移量 */
+}
+
+.center_4_02_pic{
+    /* background-color:coral; */
+    width: 370px;
+    height: 250px;
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 0px; /* 设置距离顶部的偏移量 */
+    left: 0px; /* 设置距离左侧的偏移量 */
+    /* border: 1px solid #000; 设置边框样式 */
+}
+
+.center_4_03_pic{
+    /* background-color:coral; */
+    width: 370px;
+    height: 250px;
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 0px; /* 设置距离顶部的偏移量 */
+    left: 370px; /* 设置距离左侧的偏移量 */
+    /* border: 1px solid #000; 设置边框样式 */
+}
+
+.center_4_04_pic{
+    /* background-color:coral; */
+    width: 370px;
+    height: 250px;
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 250px; /* 设置距离顶部的偏移量 */
+    left: 370px; /* 设置距离左侧的偏移量 */
+    /* border: 1px solid #000; 设置边框样式 */
+}
+
+.center_4_05_pic{
+    /* background-color:coral; */
+    width: 370px;
+    height: 250px;
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 250px; /* 设置距离顶部的偏移量 */
+    left: 0px; /* 设置距离左侧的偏移量 */
+    /* border: 1px solid #000; 设置边框样式 */
+}
+
+.center_5{
+    /* background-color: rgba(255, 255, 255, 0.3); */
+    width: 1200px;
+    height: 500px;
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 1680px; /* 设置距离顶部的偏移量 */
+    left: 0px; /* 设置距离左侧的偏移量 */
+    bottom: 0px;
+}
+
+.center_5_1_pic{
+    /* background-color:aqua; */
+    width: 200px;
+    height: 50px;
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 450px; /* 设置距离顶部的偏移量 */
+    left: 750px; /* 设置距离左侧的偏移量 */
+    bottom: 0px;
+}
+
+.center_6{
+    /* background-color: aqua; */
+    width: 1180px;
+    height: 30px;
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 680px; /* 设置距离顶部的偏移量 */
+    left: 10px; /* 设置距离左侧的偏移量 */
+}
+
+.center_botom_1{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 0px; /*距离div高10px*/
+    font-size: 16px; /*设置字体大小*/
+    font-family: STHeiti; /*设置字体*/
+}
+
+.musicbig{
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.fengmian{
+    width: 100px;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text_intru_center{
+    color: gainsboro;
+    text-align: center;
+    margin-top: 0px; /*距离div高10px*/
+    font-size: 13px; /*设置字体大小*/
+    font-family: STfangsong; /*设置字体*/
+    line-height: 1; /*行高*/
+}
+
+.big_right{
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 210px;
+    height: 2400px;
+    border: 1px solid #000; /* 设置边框样式 */
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 10px; /* 设置距离顶部的偏移量 */
+    left: 1220px; /* 设置距离左侧的偏移量 */
+}

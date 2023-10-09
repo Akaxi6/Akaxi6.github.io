@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body {
+    color: white; /* 设置文本颜色为白色 */
+            background-image: url("https://img1.imgtp.com/2023/06/14/8ewQnuJH.gif");
+            background-size: cover;   /*背景大小适应整个页面 */
+            animation: mymove 20s infinite;   /* 动画循环播放 */
+  }
+
+  .page {
+    height: 100vh; /* 设置每一页的高度为视窗高度 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+  }
+</style>
+</head>
+<body>
+  <div class="page">
+    <p>第一页内容</p>
+  </div>
+  
+  <div class="page">
+    <p>第二页内容</p>
+  </div>
+  
+  <div class="page">
+    <p>第三页内容</p>
+  </div>
+
+<script>
+  var currentPage = 0;
+  
+  function scrollToPage(page) {
+    var pages = document.getElementsByClassName('page');
+    pages[page].scrollIntoView({
+      behavior: 'smooth' // 使用平滑滚动效果
+    });
+  }
+  
+  window.addEventListener('wheel', function(event) {
+    event.preventDefault(); // 禁止默认滚动事件
+    
+    if (event.deltaY > 0 && currentPage < pages.length - 1) {
+      // 向下滑动且还有下一页时，跳转到下一页
+      currentPage++;
+      scrollToPage(currentPage);
+    } else if (event.deltaY < 0 && currentPage > 0) {
+      // 向上滑动且还有上一页时，跳转到上一页
+      currentPage--;
+      scrollToPage(currentPage);
+    }
+  });
+</script>
+</body>
+</html>
