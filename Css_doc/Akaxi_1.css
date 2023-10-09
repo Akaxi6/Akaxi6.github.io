@@ -1,8 +1,7 @@
 body{
-    background-image: url(../Picture/background_good.gif);  /*云图片地址：https://img1.imgtp.com/2023/06/14/8ewQnuJH.gif*/
+    background-image: url(https://th.bing.com/th/id/OIP.Bnn37Fk8dYZ59zKI1PTUdQHaNK?pid=ImgDet&rs=1);  /*云图片地址：https://img1.imgtp.com/2023/06/14/8ewQnuJH.gif*/   /* 原来的东西  ../Picture/background_good.gif */ 
     background-size: 100% 100%;
     animation: mybackground_animation 20s infinite;
-
 }
 
 .big_1{
