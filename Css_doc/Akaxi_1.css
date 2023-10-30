@@ -1,5 +1,5 @@
 body{
-    background-image: url(../Picture/background_black_end.jpg);  /*云图片地址：https://img1.imgtp.com/2023/06/14/8ewQnuJH.gif*/   /* 原来的东西  ../Picture/background_good.gif */ 
+    background-image: url(../Picture/balck_end.gif);  /*云图片地址：https://img1.imgtp.com/2023/06/14/8ewQnuJH.gif*/   /* 原来的东西  ../Picture/background_good.gif */ 
     background-size: 100% 100%;
     animation: mybackground_animation 20s infinite;
 }
@@ -335,7 +335,7 @@ body{
 }
 
 .center_3_01_pic{
-    /* background-color:goldenrod;  */
+    /* background-color:goldenrod; */
     width: 940px;
     height: 50px;
     padding: 0px; /* 可选：设置内边距 */
@@ -532,6 +532,84 @@ body{
     left: 750px; /* 设置距离左侧的偏移量 */
     bottom: 0px;
 }
+
+.center_5_2{
+    /* background-color:coral; */
+    width: 300px;
+    height: 200px;
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 0px; /* 设置距离顶部的偏移量 */
+    left: 0px; /* 设置距离左侧的偏移量 */
+    /* border: 1px solid #000; 设置边框样式 */
+}
+
+.center_5_3{
+    /* background-color:coral; */
+    width: 300px;
+    height: 200px;
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 0px; /* 设置距离顶部的偏移量 */
+    left: 200px; /* 设置距离左侧的偏移量 */
+    /* border: 1px solid #000; 设置边框样式 */
+}
+
+.center_5_4{
+    /* background-color:coral; */
+    width: 300px;
+    height: 200px;
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 0px; /* 设置距离顶部的偏移量 */
+    left: 580px; /* 设置距离左侧的偏移量 */
+    /* border: 1px solid #000; 设置边框样式 */
+}
+
+.center_5_5{
+    /* background-color:coral; */
+    width: 300px;
+    height: 200px;
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 290px; /* 设置距离顶部的偏移量 */
+    left: 0px; /* 设置距离左侧的偏移量 */
+    /* border: 1px solid #000; 设置边框样式 */
+}
+
+.center_5_6{
+    /* background-color:coral; */
+    width: 300px;
+    height: 200px;
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 290px; /* 设置距离顶部的偏移量 */
+    left: 260px; /* 设置距离左侧的偏移量 */
+    /* border: 1px solid #000; 设置边框样式 */
+}
+
+.center_5_7{
+    /* background-color:coral; */
+    width: 300px;
+    height: 200px;
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 290px; /* 设置距离顶部的偏移量 */
+    left: 480px; /* 设置距离左侧的偏移量 */
+    /* border: 1px solid #000; 设置边框样式 */
+}
+
+.center_5_8{
+    /* background-color:coral; */
+    width: 300px;
+    height: 200px;
+    padding: 0px; /* 可选：设置内边距 */
+    position: absolute; /* 设置定位属性为绝对定位 */
+    top: 290px; /* 设置距离顶部的偏移量 */
+    left: 680px; /* 设置距离左侧的偏移量 */
+    /* border: 1px solid #000; 设置边框样式 */
+}
+
 
 .center_6{
     /* background-color: aqua; */
